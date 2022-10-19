@@ -1,0 +1,17 @@
+<form action="Controller">
+    <p>
+        <input list = "laatstOpgezocht" id="ploeg" type="text" name="zoekopdracht" placeholder="Zoek een ploeg.." autocomplete="off">
+
+
+                <datalist id ="laatstOpgezocht">
+                    <option value= ${cookie.ploeg.value}>
+                </datalist>
+
+    </p>
+    <p>
+        <input type="submit" value="Zoek">
+    </p>
+
+    <input type="hidden" name="command" value="zoek">
+
+</form>

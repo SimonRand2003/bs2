@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+        <li> <a href = "Controller?command=home">Home</a></li>
+        <li><a id ="voegtoe" href = "Controller?command=voegtoe">Voeg toe</a></li>
+        <li><a id ="overzicht" href = "Controller?command=overzicht">Overzicht</a></li>
+        <li><a id="kunstwerk" href = "Controller?command=kunstwerk">Kunstwerken</a></li>
+    </ul>
+</nav>
